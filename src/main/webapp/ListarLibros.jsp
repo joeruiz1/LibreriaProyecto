@@ -34,14 +34,14 @@
 			<div class="container">
 				<div class="dynamicContent">
 					<!--content-->
-	               <h1>Registro de Libros</h1>
+	               <h1>Registro de ventas de vehiculo de concesionario</h1>
                     <table>
                         <tr>
                             <td>ID</td>
                             <td>NOMBRE</td>
-                            <td>AUTOR</td>
-                            <td>EDITORIAL</td>
-                            <td>ESTADO</td>
+                            <td>COLOR</td>
+                            <td>TIPO</td>
+                            <td>CONSECIONARIO</td>
                             <td>PRECIO</td>
                             
                         </tr>

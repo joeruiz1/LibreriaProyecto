@@ -51,7 +51,7 @@
                         <div class="navbar">
                             <div class="navbar-inner">
                                 <ul class="sf-menu">
-                                    <li><a href="InsertarLibro.jsp"><img src="img/splash_icon1.png" alt="" class="menu_img"><img src="img/splash_icon1_over.png" alt="" class="menu_img_over"><div class="base_text">Insertar Libro</div><div class="num_text">01</div></a></li>
+                                    <li><a href="InsertarLibro.jsp"><img src="img/splash_icon1.png" alt="" class="menu_img"><img src="img/splash_icon1_over.png" alt="" class="menu_img_over"><div class="base_text">Insertar Ventas</div><div class="num_text">01</div></a></li>
                                     <li><a href="subMenu.jsp"><img src="img/splash_icon2.png" alt="" class="menu_img"><img src="img/splash_icon2_over.png" alt="" class="menu_img_over"><div class="base_text">Registros</div><div class="num_text">02</div></a>
                                         <ul class="subMenu">
                                             <li><a href="index-7.html">Vestibulum</a>
