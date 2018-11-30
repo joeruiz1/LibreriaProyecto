@@ -29,7 +29,7 @@ public class CrearFactura extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         try (PrintWriter out = response.getWriter()) {
-            RequestDispatcher rq = request.getRequestDispatcher("insertarFactura.jsp");
+            RequestDispatcher rq = request.getRequestDispatcher("EncuestaMercadeo.jsp");
 
             CrudLibro cru = new CrudLibro();
 
@@ -77,7 +77,7 @@ public class CrearFactura extends HttpServlet {
 
             cr.facturar(f);
 
-            RequestDispatcher rq = request.getRequestDispatcher("insertarFactura.jsp");
+            RequestDispatcher rq = request.getRequestDispatcher("EncuestaMercadeo.jsp");
 
             if (resultado == true) {
                 request.setAttribute("resultado", true);

@@ -43,9 +43,8 @@
                             <div class="span2">
                                 <h2>categories</h2>
                                 <ul class="listWithMarker">
-                                    <li><a href="ListarLibros">Inventarios</a></li>
-                                    <li><a href="VerVentas">ventas</a></li>
-                                    <li><a href="ListarEmpleados">empleados</a></li>
+                                    <li><a href="ListarLibros">Listar ventas</a></li>
+                                   
                                     
                                 </ul>
                             </div>
