@@ -37,7 +37,7 @@
         <!--content wrapper-->
         <div id="wrapper">
             <div id="splash">
-
+                <p><span>Modulo de ventas de SM</span>
 
 
             </div>
@@ -46,7 +46,7 @@
                 <div class="container">
                     <div class="menu_col">
                         <!--logo and company name-->
-                        <h1><a href="index.jsp"><img src="img/LOGO2.1.png" alt=""></a></h1>
+                        <h1><a href="index.jsp"><img src=""alt=""></a></h1>
                         <!--menu-->	
                         <div class="navbar">
                             <div class="navbar-inner">
