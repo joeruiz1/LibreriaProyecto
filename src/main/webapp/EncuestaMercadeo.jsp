@@ -91,7 +91,7 @@
 
                                     </select>
                                 </p>
-                                <p><span></span>
+                                <p><span>Tipo de vehiculo</span>
                                    <input class="contact" type="text" name="nombreVende" value="" />
                                 </p>
                                 <p><span>telefono del comprador</span>
