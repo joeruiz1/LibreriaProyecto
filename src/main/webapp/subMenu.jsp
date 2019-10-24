@@ -44,6 +44,8 @@
                                 <h2>categories</h2>
                                 <ul class="listWithMarker">
                                     <li><a href="ListarLibros">Listar ventas</a></li>
+                                    <li><a href="VerVentas">ventas</a></li>
+                                    <li><a href="ListarEmpleados">empleados</a></li>
                                    
                                     
                                 </ul>

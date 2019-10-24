@@ -62,10 +62,10 @@
                                     <input class="contact" type="text" name="id" value="" /></p>
                                 <p><span>Nombre Cliente</span>
                                     <input class="contact" type="text" name="nombre" value="" /></p>
-                                <p><span>edad</span>
+                                <p><span>Num Empleado</span>
                                    <input class="contact" type="text" name="numEm" value="" />
                                 </p>
-                                <p><span>Marca de vehiculo</span>
+                                <p><span></span>
                                     <select class="contact" name="nombreLi" >
                                         <%                            //Si la variable que me deben enviar existe  
                                             if (request.getAttribute("lis") != null) {
@@ -82,7 +82,7 @@
                                             }
                                         } else {
                                         %>
-                                        <h1>inserte un vehiculo</h1>
+                                        <h1>inserte un Libro</h1>
                                         <%
                                                 }
                                             }
@@ -91,13 +91,13 @@
 
                                     </select>
                                 </p>
-                                <p><span>Tipo de vehiculo</span>
+                                <p><span>Nombre </span>
                                    <input class="contact" type="text" name="nombreVende" value="" />
                                 </p>
-                                <p><span>telefono del comprador</span>
+                                <p><span>telefono del vendedor</span>
                                    <input class="contact" type="text" name="teleVende" value="" />
                                 </p>
-                                <p><span>direccion del comprador (Barrio)</span>
+                                <p><span>direccion del vendedor (Barrio)</span>
                                    <input class="contact" type="text" name="direcVende" value="" />
                                 </p>
                                 <p style="padding-top: 15px"><span>&nbsp;</span><input class="submit" type="submit" name="contact_submitted" value="submit" /></p>

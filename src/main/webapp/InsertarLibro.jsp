@@ -32,7 +32,7 @@
                 <div class="container">
                     <div class="dynamicContent">
                         <!--content-->
-                        <h1>Registro de venta de vehiculo</h1>
+                        <h1>Nuevo Libro</h1>
              <%
                         if (request.getAttribute("resultado") != null) {
                             Boolean resultado = (Boolean) request.getAttribute("resultado");
@@ -53,13 +53,13 @@
 
             <form action=" ControlinserLibro" method="post">
                 <div class="form_settings">
-                    <p><span>Numero De Carro</span>
+                    <p><span>Numero De Registro</span>
                         <input class="contact" type="text" name="id" value="" /></p>
-                    <p><span>Marca</span>
+                    <p><span>Nombre del Libro</span>
                         <input class="contact" type="text" name="nombre" value="" /></p>
-                    <p><span>Color</span>
+                    <p><span>Nombre de Autor</span>
                         <input class="contact" type="text" name="autor" value="" /></p>
-                    <p><span>Tipo de carro</span>
+                    <p><span>Editorial</span>
                         <input class="contact" type="text" name="edi" value="" /></p>
                     <p><span>Precio</span>
                         <input class="contact" type="text" name="precio" value="" /></p>
@@ -73,7 +73,7 @@
                                      
             </form>
             <h2><a href="index.jsp"> volver al menu</a></h2>
-            <h2><a href="ListarLibros"> Listar carros vendidos</a></h2>
+            <h2><a href="ListarLibros"> Listar Libros</a></h2>
             
             <p><br>
             </p>
